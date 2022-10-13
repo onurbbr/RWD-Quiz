@@ -5,9 +5,16 @@ body {
   margin: 0;
 }
 
+header {
+  height: 50px;
+  width: 100%;
+  background-color: #1b1b32;
+  display: flex;
+}
+
 #logo {
   width: max(100px, 18vw);
   background-color: #0a0a23;
-  aspect-ratio: 35/4;
+  aspect-ratio: 35 / 4;
   padding: 0.4rem;
 }
